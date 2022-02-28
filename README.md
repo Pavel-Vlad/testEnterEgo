@@ -26,15 +26,31 @@
 Для выполнения можно использовать bootstrap, jquery, php, mysql. Так же можно реализовать на laravel или symfony.
 
 
+Стек:
+Apache_2.4 /
+PHP_7.4 /
+MySQL_8.0 /
+Laravel_8.0
+
 Решение:
+
 База данных наполняется DatabaseSeeder-ом.
+
 Поэтому для тестирования:
+
 Клонируем.
+
 Создаем пустую базу данных, 
+
 Переименовываем .env.example в .env файл, редактируем доступы к БД.
 
 Выполняем команды:
-composer install 
+
 npm install
+
+composer install
+
 php artisan key:generate
+
 php artisan migrate --seed
+
